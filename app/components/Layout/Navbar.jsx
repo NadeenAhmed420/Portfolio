@@ -38,7 +38,7 @@ const Navbar = () => {
 
           <ul className={`nav-items ${isOpen ? "flex" : "hidden"} md:flex`}>
             <li>
-              <a href="/" className="active nav-link">
+              <a href="#home" className="active nav-link">
                 Home
               </a>
             </li>
@@ -62,7 +62,16 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button className="nav-button hidden md:block">Download CV</button>
+          <button className="nav-button hidden md:block">
+            <a
+              href="/Nadeen-Hegazy-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Nadeen-Hegazy-Resume.pdf"
+            >
+              Dawnloud CV
+            </a>
+          </button>
         </div>
       </div>
     </nav>

@@ -4,7 +4,7 @@ import SocialMedia from "../SocialMedia";
 
 const Header = () => {
   return (
-    <header className="header-container">
+    <header className="header-container" id="home">
       <div className="header-wrapper">
         <div className="content">
           <span>Hey, I am Nadeen</span>
@@ -13,7 +13,16 @@ const Header = () => {
             responsive, and scalable experiences using
             <span> modern web </span> technologies.
           </h2>
-          <button className="nav-button mt-7">Download CV</button>
+          <button className="nav-button mt-7">
+            <a
+              href="/Nadeen-Hegazy-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Nadeen-Hegazy-Resume.pdf"
+            >
+              Dawnloud CV
+            </a>
+          </button>
         </div>
         <div className="hero-wrapper ">
           <div className="heroBackground">
@@ -25,9 +34,9 @@ const Header = () => {
               className="heroImage"
             />
           </div>
-        </div>
-        <div className="social-container">
-          <SocialMedia />
+          <div className="social-container">
+            <SocialMedia styles=" flex flex-col items-center justify-center gap-5" />
+          </div>
         </div>
       </div>
     </header>

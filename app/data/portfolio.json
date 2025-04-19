@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Movie Website",
+      "description": "A dynamic movie browsing platform built with React and TMDB API. Features include movie search, trending movies display, detailed movie information, and a responsive design. Users can explore different movie categories and view trailers.",
+      "image": "/movie-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://movie-site-1.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "CoinCap Dashboard",
+      "description": "A comprehensive cryptocurrency tracking dashboard built with React and CoinCap API. Features real-time price updates, market cap rankings, detailed coin statistics, and interactive price charts. Includes search functionality and responsive design for mobile devices.",
+      "image": "/coincap-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://coincap-website.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "Electro Store",
+      "description": "A modern electronics e-commerce website built with React. Features a clean product catalog with categories like laptops, smartphones, and accessories. Includes product filtering by price range, brand selection, and a responsive layout that adapts seamlessly to all devices.",
+      "image": "/electro-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://electro-webite.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "MATJRK E-commerce Gateway",
+      "description": "An Arabic e-commerce platform that serves as a gateway for online business. Built with HTML, CSS, and JavaScript, featuring a modern landing page design that introduces users to digital commerce opportunities. Includes responsive sections for services, benefits, and getting started guides.",
+      "image": "/matjrik-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://nadeenahmed420.github.io/MATJRK/"
+    },
+    {
+      "id": 5,
+      "title": "Fashion E-Commerce",
+      "description": "A stylish fashion e-commerce website built with HTML, CSS, and JavaScript. Features a modern design with product galleries, and a shopping cart system. Each product has a detailed page, and related product recommendations. Implements responsive design for optimal viewing across all devices.",
+      "image": "/e-commerce-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://nadeenahmed420.github.io/E-Commerce-Website-/"
+    },
+    {
+      "id": 6,
+      "title": "Interior Design Studio",
+      "description": "A sleek interior design website crafted with HTML, CSS, and JavaScript. Features a dynamic home page, detailed about us section, comprehensive services page, and project portfolio showcase. Implements smooth animations and fully responsive design across all devices.",
+      "image": "/interior-design-website.png",
+      "demoLink": "View Live Demo",
+      "url": "https://interiorr-design-website.netlify.app/"
+    },
+    {
+      "id": 7,
+      "title": "Admin Dashboard",
+      "description": "A modern admin panel interface built with HTML, CSS, and JavaScript. Features a clean sidebar navigation, data visualization charts, user statistics widgets, and dark/light theme toggle. Includes responsive tables and interactive analytics displays.",
+      "image": "/admin-dashboard.png",
+      "demoLink": "View Live Demo",
+      "url": "https://nadeenahmed420.github.io/Admin-Dashboard/"
+    },
+    {
+      "id": 8,
+      "title": "Academic Dashboard",
+      "description": "A modern educational platform dashboard built with HTML, CSS, and JavaScript. Features student profile management, project tracking, and comprehensive course listings. Includes a responsive sidebar navigation with profile analytics, project submissions, and course progress monitoring.",
+      "image": "/dashboard.png",
+      "demoLink": "View Live Demo",
+      "url": "https://nadeenahmed420.github.io/DashBoard/"
+    }
+  ]
+}
