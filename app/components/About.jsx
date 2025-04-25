@@ -48,12 +48,16 @@ const About = () => {
                 key={index}
                 className="flex flex-col items-center justify-between h-24"
               >
-                <div className="h-16 flex items-center justify-center">
+                <div className="h-16 flex items-center justify-center relative">
                   <Image
                     src={skill.image}
                     width={skill.width}
                     height={skill.height}
                     alt={skill.name}
+                    style={{
+                      width: `${skill.width}px`,
+                      height: `${skill.height}px`,
+                    }}
                     className="object-contain"
                   />
                 </div>

@@ -32,6 +32,7 @@ const Header = () => {
               height={200}
               alt="hero-bg"
               className="heroImage"
+              priority
             />
           </div>
           <div className="social-container">

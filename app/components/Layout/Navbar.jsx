@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -9,10 +10,17 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm">
       <div className="nav-container">
         <div className="nav-wrapper">
-          <a href="/" className="nav-logo">
-            <Image src="/logo-2.svg" width={30} height={30} alt="logo" />
+          <Link href="/" className="nav-logo">
+            <Image
+              src="/logo-2.svg"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="w-auto h-auto"
+              priority
+            />
             Nadeen Ahmed
-          </a>
+          </Link>
 
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="p-2">

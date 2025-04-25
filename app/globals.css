@@ -190,14 +190,14 @@ html {
       @apply text-mainColor text-sm font-semibold hover:font-semibold lg:hidden mb-4;
     }
     .card-url {
-      @apply inline-flex items-center gap-4 text-secondary font-medium hover:underline  hover:transform hover:translate-x-3 transition-all duration-500;
+      @apply inline-flex items-center gap-4 sm:mt-2 text-secondary font-medium hover:underline hover:transform hover:translate-x-3 transition-all duration-500;
     }
   }
   /* END OF THE PORTFOLIO COMPONENT */
 
   /* START OF THE CONTACT COMPONENT */
   .contact-container {
-    @apply container w-[96%] mx-auto p-4 py-10 lg:py-14;
+    @apply container w-[96%] mx-auto py-2 md:p-4 py-10 lg:py-14 mt-7;
   }
   .contact-content {
     @apply max-w-3xl mx-auto text-center bg-[#F2F7F9] p-10 rounded-2xl shadow-lg border border-white/10 transition-all duration-500;

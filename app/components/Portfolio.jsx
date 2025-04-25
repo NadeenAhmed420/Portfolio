@@ -20,11 +20,12 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="project-card"
             >
-              <div className="relative h-64 w-full mb-4">
+              <div className="relative h-64 w-full mb-4 ">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover rounded-lg"
                 />
               </div>
