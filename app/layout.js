@@ -15,14 +15,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Portfolio Of Nadeen Ahmed ",
+  title: "Nadeen Ahmed | Frontend Developer",
+  description:
+    "Frontend Developer specializing in React.js and Next.js with 2+ years of experience in building responsive web applications.",
+  keywords: [
+    "Frontend Developer",
+    "React Developer",
+    "Next.js",
+    "Web Development",
+    "UI/UX",
+  ],
+  authors: [{ name: "Nadeen Ahmed" }],
+  creator: "Nadeen Ahmed",
+  icons: {
+    icon: "/logo-2.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}
+      <body
+        suppressHydrationWarning={true}
         className={`${geistSans.variable} ${geistMono.variable} antialiased pt-[50px] bg-[#dbe9f05f]`}
       >
         <nav>
